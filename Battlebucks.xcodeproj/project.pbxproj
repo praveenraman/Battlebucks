@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CAF3902CBFA72800207D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF38F2CBFA72800207D22 /* AppDelegate.swift */; };
+		44CAF3922CBFA72800207D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3912CBFA72800207D22 /* SceneDelegate.swift */; };
+		44CAF3942CBFA72800207D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3932CBFA72800207D22 /* ViewController.swift */; };
+		44CAF3972CBFA72800207D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF3952CBFA72800207D22 /* Main.storyboard */; };
+		44CAF39A2CBFA72800207D22 /* Battlebucks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3982CBFA72800207D22 /* Battlebucks.xcdatamodeld */; };
+		44CAF39C2CBFA72900207D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF39B2CBFA72900207D22 /* Assets.xcassets */; };
+		44CAF39F2CBFA72900207D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF39D2CBFA72900207D22 /* LaunchScreen.storyboard */; };
+		44CAF3AB2CBFA72900207D22 /* BattlebucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3AA2CBFA72900207D22 /* BattlebucksTests.swift */; };
+		44CAF3B52CBFA72900207D22 /* BattlebucksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3B42CBFA72900207D22 /* BattlebucksUITests.swift */; };
+		44CAF3B72CBFA72900207D22 /* BattlebucksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3B62CBFA72900207D22 /* BattlebucksUITestsLaunchTests.swift */; };
+		44CAF3C92CBFBBCE00207D22 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3C42CBFBBCD00207D22 /* APIHandler.swift */; };
+		44CAF3CA2CBFBBCE00207D22 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3C52CBFBBCE00207D22 /* ResponseHandler.swift */; };
+		44CAF3CB2CBFBBCE00207D22 /* ImageViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3C62CBFBBCE00207D22 /* ImageViewHandler.swift */; };
+		44CAF3CC2CBFBBCE00207D22 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3C72CBFBBCE00207D22 /* NetworkManager.swift */; };
+		44CAF3D12CBFBC2C00207D22 /* AppUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3CF2CBFBC2C00207D22 /* AppUrls.swift */; };
+		44CAF3D22CBFBC2C00207D22 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3D02CBFBC2C00207D22 /* Common.swift */; };
+		44CAF3D62CBFBC8A00207D22 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3D52CBFBC8A00207D22 /* DataManager.swift */; };
+		44CAF3DA2CBFBD9800207D22 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3D92CBFBD9800207D22 /* DataResponse.swift */; };
+		44CAF3DD2CBFC06C00207D22 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3DB2CBFC06C00207D22 /* PhotoCell.swift */; };
+		44CAF3DE2CBFC06C00207D22 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF3DC2CBFC06C00207D22 /* PhotoCell.xib */; };
+		44CAF3E02CBFCB4A00207D22 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF3DF2CBFCB4A00207D22 /* PhotoDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CAF3A72CBFA72900207D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CAF3842CBFA72700207D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CAF38B2CBFA72800207D22;
+			remoteInfo = Battlebucks;
+		};
+		44CAF3B12CBFA72900207D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CAF3842CBFA72700207D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CAF38B2CBFA72800207D22;
+			remoteInfo = Battlebucks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CAF38C2CBFA72800207D22 /* Battlebucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battlebucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CAF38F2CBFA72800207D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44CAF3912CBFA72800207D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44CAF3932CBFA72800207D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44CAF3962CBFA72800207D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44CAF3992CBFA72800207D22 /* Battlebucks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Battlebucks.xcdatamodel; sourceTree = "<group>"; };
+		44CAF39B2CBFA72900207D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44CAF39E2CBFA72900207D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44CAF3A02CBFA72900207D22 /* Battlebucks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Battlebucks.entitlements; sourceTree = "<group>"; };
+		44CAF3A12CBFA72900207D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CAF3A62CBFA72900207D22 /* BattlebucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattlebucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CAF3AA2CBFA72900207D22 /* BattlebucksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlebucksTests.swift; sourceTree = "<group>"; };
+		44CAF3B02CBFA72900207D22 /* BattlebucksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattlebucksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CAF3B42CBFA72900207D22 /* BattlebucksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlebucksUITests.swift; sourceTree = "<group>"; };
+		44CAF3B62CBFA72900207D22 /* BattlebucksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlebucksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44CAF3C42CBFBBCD00207D22 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		44CAF3C52CBFBBCE00207D22 /* ResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		44CAF3C62CBFBBCE00207D22 /* ImageViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewHandler.swift; sourceTree = "<group>"; };
+		44CAF3C72CBFBBCE00207D22 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		44CAF3CF2CBFBC2C00207D22 /* AppUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUrls.swift; sourceTree = "<group>"; };
+		44CAF3D02CBFBC2C00207D22 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		44CAF3D52CBFBC8A00207D22 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		44CAF3D92CBFBD9800207D22 /* DataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		44CAF3DB2CBFC06C00207D22 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		44CAF3DC2CBFC06C00207D22 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		44CAF3DF2CBFCB4A00207D22 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CAF3892CBFA72800207D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3A32CBFA72900207D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3AD2CBFA72900207D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CAF3832CBFA72700207D22 = {
+			isa = PBXGroup;
+			children = (
+				44CAF38E2CBFA72800207D22 /* Battlebucks */,
+				44CAF3A92CBFA72900207D22 /* BattlebucksTests */,
+				44CAF3B32CBFA72900207D22 /* BattlebucksUITests */,
+				44CAF38D2CBFA72800207D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CAF38D2CBFA72800207D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF38C2CBFA72800207D22 /* Battlebucks.app */,
+				44CAF3A62CBFA72900207D22 /* BattlebucksTests.xctest */,
+				44CAF3B02CBFA72900207D22 /* BattlebucksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CAF38E2CBFA72800207D22 /* Battlebucks */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3D82CBFBD7200207D22 /* Model */,
+				44CAF3D72CBFBCA100207D22 /* View */,
+				44CAF3D42CBFBC7A00207D22 /* ViewModel */,
+				44CAF3D32CBFBC4B00207D22 /* Storyboard */,
+				44CAF3CE2CBFBC1500207D22 /* Resource */,
+				44CAF3C32CBFBBB900207D22 /* Api Manager */,
+				44CAF38F2CBFA72800207D22 /* AppDelegate.swift */,
+				44CAF3912CBFA72800207D22 /* SceneDelegate.swift */,
+				44CAF39B2CBFA72900207D22 /* Assets.xcassets */,
+				44CAF3A02CBFA72900207D22 /* Battlebucks.entitlements */,
+				44CAF3A12CBFA72900207D22 /* Info.plist */,
+				44CAF3982CBFA72800207D22 /* Battlebucks.xcdatamodeld */,
+			);
+			path = Battlebucks;
+			sourceTree = "<group>";
+		};
+		44CAF3A92CBFA72900207D22 /* BattlebucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3AA2CBFA72900207D22 /* BattlebucksTests.swift */,
+			);
+			path = BattlebucksTests;
+			sourceTree = "<group>";
+		};
+		44CAF3B32CBFA72900207D22 /* BattlebucksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3B42CBFA72900207D22 /* BattlebucksUITests.swift */,
+				44CAF3B62CBFA72900207D22 /* BattlebucksUITestsLaunchTests.swift */,
+			);
+			path = BattlebucksUITests;
+			sourceTree = "<group>";
+		};
+		44CAF3C32CBFBBB900207D22 /* Api Manager */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3C42CBFBBCD00207D22 /* APIHandler.swift */,
+				44CAF3C62CBFBBCE00207D22 /* ImageViewHandler.swift */,
+				44CAF3C72CBFBBCE00207D22 /* NetworkManager.swift */,
+				44CAF3C52CBFBBCE00207D22 /* ResponseHandler.swift */,
+			);
+			path = "Api Manager";
+			sourceTree = "<group>";
+		};
+		44CAF3CE2CBFBC1500207D22 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3CF2CBFBC2C00207D22 /* AppUrls.swift */,
+				44CAF3D02CBFBC2C00207D22 /* Common.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		44CAF3D32CBFBC4B00207D22 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3952CBFA72800207D22 /* Main.storyboard */,
+				44CAF39D2CBFA72900207D22 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		44CAF3D42CBFBC7A00207D22 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3D52CBFBC8A00207D22 /* DataManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44CAF3D72CBFBCA100207D22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3932CBFA72800207D22 /* ViewController.swift */,
+				44CAF3DF2CBFCB4A00207D22 /* PhotoDetailViewController.swift */,
+				44CAF3DB2CBFC06C00207D22 /* PhotoCell.swift */,
+				44CAF3DC2CBFC06C00207D22 /* PhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44CAF3D82CBFBD7200207D22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF3D92CBFBD9800207D22 /* DataResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CAF38B2CBFA72800207D22 /* Battlebucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CAF3BA2CBFA72900207D22 /* Build configuration list for PBXNativeTarget "Battlebucks" */;
+			buildPhases = (
+				44CAF3882CBFA72800207D22 /* Sources */,
+				44CAF3892CBFA72800207D22 /* Frameworks */,
+				44CAF38A2CBFA72800207D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Battlebucks;
+			productName = Battlebucks;
+			productReference = 44CAF38C2CBFA72800207D22 /* Battlebucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CAF3A52CBFA72900207D22 /* BattlebucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CAF3BD2CBFA72900207D22 /* Build configuration list for PBXNativeTarget "BattlebucksTests" */;
+			buildPhases = (
+				44CAF3A22CBFA72900207D22 /* Sources */,
+				44CAF3A32CBFA72900207D22 /* Frameworks */,
+				44CAF3A42CBFA72900207D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CAF3A82CBFA72900207D22 /* PBXTargetDependency */,
+			);
+			name = BattlebucksTests;
+			productName = BattlebucksTests;
+			productReference = 44CAF3A62CBFA72900207D22 /* BattlebucksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44CAF3AF2CBFA72900207D22 /* BattlebucksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CAF3C02CBFA72900207D22 /* Build configuration list for PBXNativeTarget "BattlebucksUITests" */;
+			buildPhases = (
+				44CAF3AC2CBFA72900207D22 /* Sources */,
+				44CAF3AD2CBFA72900207D22 /* Frameworks */,
+				44CAF3AE2CBFA72900207D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CAF3B22CBFA72900207D22 /* PBXTargetDependency */,
+			);
+			name = BattlebucksUITests;
+			productName = BattlebucksUITests;
+			productReference = 44CAF3B02CBFA72900207D22 /* BattlebucksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CAF3842CBFA72700207D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					44CAF38B2CBFA72800207D22 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					44CAF3A52CBFA72900207D22 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 44CAF38B2CBFA72800207D22;
+					};
+					44CAF3AF2CBFA72900207D22 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 44CAF38B2CBFA72800207D22;
+					};
+				};
+			};
+			buildConfigurationList = 44CAF3872CBFA72700207D22 /* Build configuration list for PBXProject "Battlebucks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CAF3832CBFA72700207D22;
+			productRefGroup = 44CAF38D2CBFA72800207D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CAF38B2CBFA72800207D22 /* Battlebucks */,
+				44CAF3A52CBFA72900207D22 /* BattlebucksTests */,
+				44CAF3AF2CBFA72900207D22 /* BattlebucksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CAF38A2CBFA72800207D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CAF3DE2CBFC06C00207D22 /* PhotoCell.xib in Resources */,
+				44CAF39F2CBFA72900207D22 /* LaunchScreen.storyboard in Resources */,
+				44CAF39C2CBFA72900207D22 /* Assets.xcassets in Resources */,
+				44CAF3972CBFA72800207D22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3A42CBFA72900207D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3AE2CBFA72900207D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CAF3882CBFA72800207D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CAF39A2CBFA72800207D22 /* Battlebucks.xcdatamodeld in Sources */,
+				44CAF3942CBFA72800207D22 /* ViewController.swift in Sources */,
+				44CAF3C92CBFBBCE00207D22 /* APIHandler.swift in Sources */,
+				44CAF3902CBFA72800207D22 /* AppDelegate.swift in Sources */,
+				44CAF3CC2CBFBBCE00207D22 /* NetworkManager.swift in Sources */,
+				44CAF3922CBFA72800207D22 /* SceneDelegate.swift in Sources */,
+				44CAF3DD2CBFC06C00207D22 /* PhotoCell.swift in Sources */,
+				44CAF3CA2CBFBBCE00207D22 /* ResponseHandler.swift in Sources */,
+				44CAF3CB2CBFBBCE00207D22 /* ImageViewHandler.swift in Sources */,
+				44CAF3D62CBFBC8A00207D22 /* DataManager.swift in Sources */,
+				44CAF3E02CBFCB4A00207D22 /* PhotoDetailViewController.swift in Sources */,
+				44CAF3D22CBFBC2C00207D22 /* Common.swift in Sources */,
+				44CAF3DA2CBFBD9800207D22 /* DataResponse.swift in Sources */,
+				44CAF3D12CBFBC2C00207D22 /* AppUrls.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3A22CBFA72900207D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CAF3AB2CBFA72900207D22 /* BattlebucksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CAF3AC2CBFA72900207D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CAF3B52CBFA72900207D22 /* BattlebucksUITests.swift in Sources */,
+				44CAF3B72CBFA72900207D22 /* BattlebucksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CAF3A82CBFA72900207D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CAF38B2CBFA72800207D22 /* Battlebucks */;
+			targetProxy = 44CAF3A72CBFA72900207D22 /* PBXContainerItemProxy */;
+		};
+		44CAF3B22CBFA72900207D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CAF38B2CBFA72800207D22 /* Battlebucks */;
+			targetProxy = 44CAF3B12CBFA72900207D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CAF3952CBFA72800207D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CAF3962CBFA72800207D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44CAF39D2CBFA72900207D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CAF39E2CBFA72900207D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CAF3B82CBFA72900207D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44CAF3B92CBFA72900207D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CAF3BB2CBFA72900207D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Battlebucks/Battlebucks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Battlebucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.Battlebucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CAF3BC2CBFA72900207D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Battlebucks/Battlebucks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Battlebucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.Battlebucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44CAF3BE2CBFA72900207D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.BattlebucksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battlebucks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Battlebucks";
+			};
+			name = Debug;
+		};
+		44CAF3BF2CBFA72900207D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.BattlebucksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battlebucks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Battlebucks";
+			};
+			name = Release;
+		};
+		44CAF3C12CBFA72900207D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.BattlebucksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Battlebucks;
+			};
+			name = Debug;
+		};
+		44CAF3C22CBFA72900207D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VEURMV45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperlive.BattlebucksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Battlebucks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CAF3872CBFA72700207D22 /* Build configuration list for PBXProject "Battlebucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CAF3B82CBFA72900207D22 /* Debug */,
+				44CAF3B92CBFA72900207D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CAF3BA2CBFA72900207D22 /* Build configuration list for PBXNativeTarget "Battlebucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CAF3BB2CBFA72900207D22 /* Debug */,
+				44CAF3BC2CBFA72900207D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CAF3BD2CBFA72900207D22 /* Build configuration list for PBXNativeTarget "BattlebucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CAF3BE2CBFA72900207D22 /* Debug */,
+				44CAF3BF2CBFA72900207D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CAF3C02CBFA72900207D22 /* Build configuration list for PBXNativeTarget "BattlebucksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CAF3C12CBFA72900207D22 /* Debug */,
+				44CAF3C22CBFA72900207D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44CAF3982CBFA72800207D22 /* Battlebucks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44CAF3992CBFA72800207D22 /* Battlebucks.xcdatamodel */,
+			);
+			currentVersion = 44CAF3992CBFA72800207D22 /* Battlebucks.xcdatamodel */;
+			path = Battlebucks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44CAF3842CBFA72700207D22 /* Project object */;
+}
